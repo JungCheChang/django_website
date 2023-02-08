@@ -10,12 +10,6 @@ from .models import Room, Topic, Message
 from .forms import RoomForm, UserForm
 from django.db.models import Count
 
-
-""" rooms = [{'id':1, 'name':'Lets learn python!'},
-         {'id':2, 'name':'Design with me'},
-         {'id':3, 'name':'Fronted developer'},
-         
-        ] """
 def loginPage(request):
     page = 'login'
     
